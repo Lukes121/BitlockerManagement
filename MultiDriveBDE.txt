@@ -1,6 +1,3 @@
-#working/first time script. Can no doubt be optimized, but here for notes
-
-#gets the volumes on the system - definitions are form win32 encryptable volume as some 'fun' trivia
 $BitlockerVolumes = Get-BitlockerVolume
 $PhysicalDrives = Get-PSDrive -PSProvider FileSystem
 $PhysicalDrivesCount = $PhysicalDrives.count
